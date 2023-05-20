@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cardsplace {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+    max-width: 1500px;
+    margin: 50px auto;
+}
+.idnumber {
+    text-align: right;
+}
+.card img{
+    margin: 0 auto;
+    max-width: 200px;
+}
+.name {
+    font-size: 1.5rem;
+}
+.surname {
+    font-size: 1.3rem;
+}
+.card {
+    border: 2px solid rgba(59, 6, 146, 0.68);
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: .4s;
+    gap:10px
+}
+.active {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.663);
+    background-color: rgb(155, 126, 91);
+    transform: scale(1.04);
+}
